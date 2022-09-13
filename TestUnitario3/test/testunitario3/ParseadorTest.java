@@ -17,9 +17,9 @@ public class ParseadorTest {
 
     @Test
     public void obtenerParte1Unidades() {
-        String ecuacion1 = "2x - 1 = 0";
+        String ecuacion1 = "5x - 1 = 0";
         int resultado = parseador.obtenerParte1(ecuacion1);
-        assertEquals(2, resultado);
+        assertEquals(5, resultado);
     }
 
     @Test
