@@ -42,7 +42,7 @@ public class OperacionesTest {
     @Test
     public void testDivision() {
          a= 20;
-         b= 2;
+         b= 10;
         resultado = operacion.division(a,b);
         assertEquals(10, resultado, DELTA);
     }
